@@ -22,3 +22,23 @@
       margin: 0 16px;
     }
   }
+
+
+.photo-grid__container {
+    margin: 0 auto;
+}
+
+.photo-grid__gallery {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(284px, 4fr));
+    grid-template-rows: repeat(3, 3fr);
+    grid-column-gap: 16px;
+    grid-row-gap: 12px;
+}
+
+.photo-grid__image {
+    width: 100%;
+}
