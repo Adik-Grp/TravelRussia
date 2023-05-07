@@ -1,0 +1,11 @@
+.place__link {
+    color: #ffffff;
+    font-size: 18px;
+    line-height: 22px;
+    font-style: normal;
+    text-decoration: underline;
+}
+
+.place__link:hover {
+    filter: brightness(75%);
+}
