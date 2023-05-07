@@ -9,3 +9,10 @@
   line-height: 2px;
   padding-left: 10px;
 }
+
+@media screen and (max-width: 767px) {
+  .header__lang-link {
+    font-size: 18px;
+    line-height: 20px;
+  }
+}
