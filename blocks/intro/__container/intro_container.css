@@ -1,5 +1,5 @@
 .intro__container {
-    width: 750px;
+    max-width: 690px;
     align-self: flex-start;
 }
 
