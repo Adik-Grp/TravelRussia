@@ -1,4 +1,4 @@
-.cover__a__link {
+.cover__image__link {
   margin: 0 auto;
   width: 100%;
   min-height: 740px;
@@ -15,7 +15,7 @@
   z-index: 3;
 }
 
-.cover__a__link::before {
+.cover__image__link::before {
   position: absolute;
   content: '';
   background-color: #2a2c2f;
@@ -27,29 +27,29 @@
   z-index: -1;
 }
 
-.cover__a__link:hover:before {
+.cover__image__link:hover:before {
   transition: 0.5s;
   transition-delay: 0.2s;
   opacity: 0.8;
 }
 
 @media screen and (min-width: 1024px) and (max-width: 1279px) {
-  .cover__a__link {
+  .cover__image__link {
     min-height: 640px;
   }
 }
 @media screen and (min-width: 768px) and (max-width: 1023px) {
-  .cover__a__link {
+  .cover__image__link {
     min-height: 480px;
   }
 }
 @media screen and (min-width: 321px) and (max-width: 767px) {
-  .cover__a__link {
+  .cover__image__link {
     min-height: 375px;
   }
 }
 @media screen and (max-width: 320px) {
-  .cover__a__link {
+  .cover__image__link {
     min-height: 200px;
   }
 }
