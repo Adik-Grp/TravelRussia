@@ -1,4 +1,4 @@
-.container__links {
+.footer__menu {
     grid-column-gap: 18px;
     display: flex;
     gap: 18px;
@@ -10,13 +10,13 @@
   }
   
   @media screen and (max-width: 500px) {
-      .container__links {
+      .footer__menu {
           flex-direction: column;
       }
   }
   
   @media screen and (max-width: 500px) {
-      .container__links {
+      .footer__menu {
           row-gap: 32px;
       }
   }
