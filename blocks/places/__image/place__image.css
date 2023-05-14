@@ -1,6 +1,11 @@
 .place__image {
     width: 100%;
+    transition: opacity 500ms ease-out;
 }
+
+.place__image:hover {
+    opacity: 0.6;
+  }
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
     .place__image {
